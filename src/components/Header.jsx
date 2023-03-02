@@ -34,18 +34,18 @@ const Header = () => {
       <div
         className={`${displayClose} bg-white md:hidden border-2 border-black fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
       >
-        <MenuLink number="00" title="HOME" />
-        <MenuLink number="01" title="DESTINATION" />
-        <MenuLink number="02" title="CREW" />
-        <MenuLink number="03" title="TECHNOLOGY" />
+        <MenuLink number="00" title="HOME" path="/" />
+        <MenuLink number="01" title="DESTINATION" path="/destination" />
+        <MenuLink number="02" title="CREW" path="/crew" />
+        <MenuLink number="03" title="TECHNOLOGY" path="/technology" />
       </div>
 
       {/* Navbar for Desktop and Tablet */}
       <div className="hidden md:block md:flex space-x-5 lg:space-x-12 py-12 border-2 border-black text-xl md:pr-8 lg:pl-20 lg:pr-32">
-        <MenuLink number="00" title="HOME" />
-        <MenuLink number="01" title="DESTINATION" />
-        <MenuLink number="02" title="CREW" />
-        <MenuLink number="03" title="TECHNOLOGY" />
+        <MenuLink number="00" title="HOME" path="/" />
+        <MenuLink number="01" title="DESTINATION" path="/destination" />
+        <MenuLink number="02" title="CREW" path="/crew" />
+        <MenuLink number="03" title="TECHNOLOGY" path="/technology" />
       </div>
 
       {/* Hamburger Menu */}

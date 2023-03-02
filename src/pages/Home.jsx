@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="lg:min-h-[80vh] text-center lg:text-left flex flex-col justify-between items-center lg:flex-row lg:justify-between lg:space-x-52 lg:px-36">
       {/* Intro */}
-      <img src={homeBgMobile} />
+      {/* <img src={homeBgMobile} /> */}
       <div className="mt-10 lg:mt-0 mb-20 md:mb-44 lg:mb-0 border-2 border-black lg:max-w-min">
         <h2 className="text-2xl lg:text-xl px-8 sm:px-16 md:px-20 lg:px-0">
           SO, YOU WANT TO TRAVEL TO
