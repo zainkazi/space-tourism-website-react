@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const DestinationLink = ({ name }) => {
+const DestinationLink = ({ name, path }) => {
   return (
     <div>
-      <a>{name}</a>
+      <Link to={path}>{name}</Link>
     </div>
   );
 };
