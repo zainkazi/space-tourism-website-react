@@ -32,7 +32,7 @@ const Header = () => {
 
       {/* Navbar for Mobile */}
       <div
-        className={`${displayClose} bg-white md:hidden border-2 border-black fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
+        className={`${displayClose} font-barlow tracking-[4px] text-white bg-black md:hidden border-2 border-black fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
       >
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
@@ -41,7 +41,7 @@ const Header = () => {
       </div>
 
       {/* Navbar for Desktop and Tablet */}
-      <div className="hidden md:block md:flex space-x-5 lg:space-x-12 py-12 border-2 border-black text-xl md:pr-8 lg:pl-20 lg:pr-32">
+      <div className="font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 py-12 border-2 border-black text-xl md:pr-8 lg:pl-20 lg:pr-32">
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
         <MenuLink number="02" title="CREW" path="/crew" />
