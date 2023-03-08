@@ -8,7 +8,7 @@ const DestinationLink = ({ name, path }) => {
         style={({ isActive }) => {
           return isActive ? { borderBottom: "3px solid white" } : {};
         }}
-        className="transition-[border] duration-75 hover:border-b-[3px] border-gray-500"
+        className="transition-[border] pb-2 duration-75 hover:border-b-[3px] border-gray-500"
         to={path}
       >
         {name}

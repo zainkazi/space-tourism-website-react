@@ -8,7 +8,7 @@ const TechnologyNavbar = () => {
         style={({ isActive }) => {
           return isActive ? { border: "3px solid black" } : {};
         }}
-        className="border-2 border-white text-center p-4 rounded-full h-[70px] w-[70px]"
+        className="border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px]"
         to="/technology/LaunchVehicle"
       >
         <div>1</div>
