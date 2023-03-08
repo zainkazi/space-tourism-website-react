@@ -9,14 +9,17 @@ const Header = () => {
   const [hamburgerClicked, setHamburgerClicked] = useState(false);
   const [displayHamburger, setDisplayHamburger] = useState("block");
   const [displayClose, setDisplayClose] = useState("hidden");
+  const [displayNavbar, setDisplayNavbar] = useState("translate-x-full");
 
   useEffect(() => {
     if (hamburgerClicked) {
       setDisplayHamburger("hidden");
       setDisplayClose("block");
+      setDisplayNavbar("-translate-x-0");
     } else {
       setDisplayHamburger("block");
       setDisplayClose("hidden");
+      setDisplayNavbar("translate-x-full");
     }
   }, [hamburgerClicked]);
 
@@ -36,7 +39,7 @@ const Header = () => {
 
       {/* Navbar for Mobile */}
       <div
-        className={`${displayClose} font-barlow tracking-[4px] bg-black text-white md:hidden fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
+        className={`transition-all duration-300 ease-in-out ${displayNavbar} font-barlow tracking-[4px] bg-black text-white md:hidden fixed top-0 right-0 bottom-0 pt-40 text-2xl space-y-10 pl-16 pr-20`}
       >
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
