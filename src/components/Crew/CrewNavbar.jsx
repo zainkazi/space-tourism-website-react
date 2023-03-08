@@ -10,11 +10,11 @@ const CrewNavbar = () => {
   return (
     <div className="mb-6 space-x-6 lg:mt-5">
       <NavLink
-        style={({ isActive }) => {
-          return isActive
-            ? setLink1Active("cursor-default bg-white")
-            : setLink1Active("hover:bg-gray-500");
-        }}
+        // style={({ isActive }) => {
+        //   return isActive
+        //     ? setLink1Active("cursor-default bg-white")
+        //     : setLink1Active("hover:bg-gray-500");
+        // }}
         to="/crew/DouglasHurley"
       >
         <button
@@ -26,11 +26,11 @@ const CrewNavbar = () => {
         ></button>
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return isActive
-            ? setLink2Active("cursor-default bg-white")
-            : setLink2Active("hover:bg-gray-500");
-        }}
+        // style={({ isActive }) => {
+        //   return isActive
+        //     ? setLink2Active("cursor-default bg-white")
+        //     : setLink2Active("hover:bg-gray-500");
+        // }}
         to="/crew/MarkShuttleworth"
       >
         <button
@@ -42,11 +42,11 @@ const CrewNavbar = () => {
         ></button>
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return isActive
-            ? setLink3Active("cursor-default bg-white")
-            : setLink3Active("hover:bg-gray-500");
-        }}
+        // style={({ isActive }) => {
+        //   return isActive
+        //     ? setLink3Active("cursor-default bg-white")
+        //     : setLink3Active("hover:bg-gray-500");
+        // }}
         to="/crew/VictorGlover"
       >
         <button
@@ -58,11 +58,11 @@ const CrewNavbar = () => {
         ></button>
       </NavLink>
       <NavLink
-        style={({ isActive }) => {
-          return isActive
-            ? setLink4Active("cursor-default bg-white")
-            : setLink4Active("hover:bg-gray-500");
-        }}
+        // style={({ isActive }) => {
+        //   return isActive
+        //     ? setLink4Active("cursor-default bg-white")
+        //     : setLink4Active("hover:bg-gray-500");
+        // }}
         to="/crew/AnoushehAnsari"
       >
         <button
