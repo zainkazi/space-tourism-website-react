@@ -3,6 +3,7 @@ import logo from "../assets/shared/logo.svg";
 import iconHamburger from "../assets/shared/icon-hamburger.svg";
 import iconClose from "../assets/shared/icon-close.svg";
 import MenuLink from "./MenuLink";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Header = () => {
   const [hamburgerClicked, setHamburgerClicked] = useState(false);
@@ -24,15 +25,18 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-blue-700 flex justify-between items-center lg:mt-5">
+    <div className="flex justify-between items-center lg:mt-5">
       {/* Logo */}
-      <div className="p-6">
-        <img src={logo} alt="logo" className="w-14" />
+
+      <div className="p-6 md:pl-10 lg:pl-20">
+        <NavLink to="/">
+          <img src={logo} alt="logo" className="w-14" />
+        </NavLink>
       </div>
 
       {/* Navbar for Mobile */}
       <div
-        className={`${displayClose} font-barlow tracking-[4px] text-white bg-black md:hidden border-2 border-black fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
+        className={`${displayClose} font-barlow tracking-[4px] bg-black text-white md:hidden fixed top-0 right-0 bottom-0 pt-52 text-2xl space-y-12 pl-7 pr-16`}
       >
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
@@ -41,7 +45,7 @@ const Header = () => {
       </div>
 
       {/* Navbar for Desktop and Tablet */}
-      <div className="font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 py-12 border-2 border-black text-xl md:pr-8 lg:pl-20 lg:pr-32">
+      <div className="font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 py-12 text-xl md:pr-8 lg:pl-20 lg:pr-32">
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
         <MenuLink number="02" title="CREW" path="/crew" />

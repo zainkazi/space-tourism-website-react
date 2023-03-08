@@ -1,23 +1,19 @@
 import React from "react";
-import crew1 from "../assets/crew/image-anousheh-ansari.webp";
-import crew2 from "../assets/crew/image-douglas-hurley.webp";
-import crew3 from "../assets/crew/image-mark-shuttleworth.webp";
-import crew4 from "../assets/crew/image-victor-glover.webp";
 import CrewImage from "../components/Crew/CrewImage";
 import CrewInfo from "../components/Crew/CrewInfo";
 import CrewNavbar from "../components/Crew/CrewNavbar";
 
-const Crew = () => {
+const Crew = ({ image, role, name, bio }) => {
   return (
     <div className="text-center lg:text-left lg:min-h-[80vh]">
-      <h1 className="my-12 text-2xl md:text-left md:pl-10 lg:pl-28">
-        <span className="mr-3">02</span>MEET YOUR CREW
+      <h1 className="flex justify-center md:justify-start font-barlow tracking-[3px] lg:tracking-[6px] text-white mt-12 mb-20 text-2xl lg:text-3xl md:text-left md:pl-10 lg:pl-28">
+        <div className="mr-5 text-gray-500 font-black">02</div>MEET YOUR CREW
       </h1>
 
-      <div className="flex flex-col lg:flex-row-reverse justify-center items-center space-y-12 lg:space-y-0 lg:px-20">
+      <div className="flex flex-col lg:flex-row-reverse justify-center items-center mb-16 space-y-12 lg:space-y-0 lg:px-20">
         {/* Image container */}
         <div className="w-72 lg:w-[90%]">
-          <CrewImage source={crew1} />
+          <CrewImage source={image} />
         </div>
 
         {/* Details container */}
@@ -27,11 +23,7 @@ const Crew = () => {
 
           {/* Crew details */}
           <div>
-            <CrewInfo
-              role="FLIGHT ENGINEER"
-              name="ANOUSHEH ANSARI"
-              bio="Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
-            />
+            <CrewInfo role={role} name={name} bio={bio} />
           </div>
         </div>
       </div>

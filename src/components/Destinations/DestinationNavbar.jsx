@@ -3,11 +3,11 @@ import DestinationLink from "./DestionationLink";
 
 const DestinationNavbar = () => {
   return (
-    <div className="flex justify-center lg:justify-start space-x-10 items-center text-2xl">
-      <DestinationLink name="MOON" path="moon" />
-      <DestinationLink name="MARS" path="/mars" />
-      <DestinationLink name="EUROPA" path="/europa" />
-      <DestinationLink name="TITAN" path="/titan" />
+    <div className="font-barlow tracking-[3px] sm:tracking-[5px] flex justify-center lg:justify-start space-x-6 sm:space-x-10 items-center text-2xl mb-5">
+      <DestinationLink name="MOON" path="/destination/moon" />
+      <DestinationLink name="MARS" path="/destination/mars" />
+      <DestinationLink name="EUROPA" path="/destination/europa" />
+      <DestinationLink name="TITAN" path="/destination/titan" />
     </div>
   );
 };

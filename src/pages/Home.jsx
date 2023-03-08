@@ -10,7 +10,7 @@ const Home = () => {
         <h2 className="font-barlow text-xl lg:text-[28px] tracking-[4px] px-8 sm:px-16 md:px-20 lg:px-0">
           SO, YOU WANT TO TRAVEL TO
         </h2>
-        <h1 className="font-bellefair text-10xl lg:text-[150px] text-white px-8 sm:px-16 md:px-20 lg:px-0 mb-6">
+        <h1 className="font-bellefair text-10xl lg:text-[150px] text-white px-8 sm:px-16 md:px-20 lg:px-0">
           SPACE
         </h1>
         <p className="text-2xl px-8 sm:px-16 lg:text-lg md:px-32 lg:px-0">
@@ -22,7 +22,7 @@ const Home = () => {
       </div>
 
       {/* Explore Button */}
-      <div className="font-bellefair bg-white text-3xl lg:text-4xl border-2 border-black rounded-full px-[50px] py-[100px] lg:w-60 lg:pr-[200px] lg:py-[105px] align-middle">
+      <div className="font-bellefair bg-white text-3xl lg:text-4xl text-[#0B0D17] border-2 border-black rounded-full px-[50px] py-[100px] lg:w-60 lg:pr-[200px] lg:py-[105px] align-middle">
         <div>EXPLORE</div>
       </div>
     </div>
