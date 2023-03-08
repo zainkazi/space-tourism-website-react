@@ -6,9 +6,11 @@ const DestinationLink = ({ name, path }) => {
     <div>
       <NavLink
         style={({ isActive }) => {
-          return isActive ? { borderBottom: "3px solid white" } : {};
+          return isActive
+            ? { transitionDuration: "0.5s", borderBottom: "3px solid white" }
+            : {};
         }}
-        className="transition-[border] pb-2 duration-75 hover:border-b-[3px] border-gray-500"
+        className="transition-[border] pb-2 duration-150 hover:border-b-[3px] border-gray-500"
         to={path}
       >
         {name}

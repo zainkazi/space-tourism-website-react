@@ -6,9 +6,11 @@ const MenuLink = ({ number, title, path }) => {
     //<div className="border-2 border-black flex space-x-6">
     <NavLink
       style={({ isActive }) => {
-        return isActive ? { borderBottom: "3px solid white" } : {};
+        return isActive
+          ? { transitionDuration: "0.5s", borderBottom: "3px solid white" }
+          : {};
       }}
-      className="transition-[border] duration-75 hover:border-b-[3px] border-gray-500"
+      className="transition-[border] duration-150 hover:border-b-[3px] border-gray-500"
       to={path}
     >
       <div className="flex py-5 space-x-6 mb-7 md:mb-0 lg:space-x-3">
