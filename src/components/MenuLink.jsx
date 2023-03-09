@@ -7,13 +7,13 @@ const MenuLink = ({ number, title, path }) => {
     <NavLink
       style={({ isActive }) => {
         return isActive
-          ? { transitionDuration: "0.5s", borderBottom: "3px solid white" }
+          ? { transitionDuration: "0.5s", borderBottom: "4px solid white" }
           : {};
       }}
-      className="transition-[border] duration-150 hover:border-b-[3px] border-gray-500"
+      className="transition-[border] duration-150 hover:border-b-[4px] border-gray-500"
       to={path}
     >
-      <div className="flex py-8 space-x-6 mb-7 md:mb-0 lg:space-x-3">
+      <div className="flex py-4 md:py-8 space-x-6 mb-7 md:mb-0 lg:space-x-3">
         <div className="md:hidden lg:block">{number}</div>
         <div>{title}</div>
       </div>

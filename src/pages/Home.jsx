@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div>
       <img
-        className="block md:hidden absolute top-0 left-0 z-[-1] w-full"
+        className="block md:hidden absolute top-0 left-0 z-[-1] w-full  min-h-[100vh]"
         src={homeBgMobile}
       />
       <img
-        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full"
+        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full  min-h-[100vh]"
         src={homeBgTablet}
       />
       <img
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={homeBgDesktop}
       />
 

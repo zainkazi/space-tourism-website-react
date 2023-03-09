@@ -39,7 +39,7 @@ const Header = () => {
 
       {/* Navbar for Mobile */}
       <div
-        className={`transition-all duration-300 ease-in-out ${displayNavbar} font-barlow tracking-[4px] bg-black text-white md:hidden fixed top-0 right-0 bottom-0 pt-40 text-2xl space-y-10 pl-16 pr-20`}
+        className={`backdrop-blur-[100px] transition-all duration-300 ease-in-out ${displayNavbar} font-barlow tracking-[4px] text-white md:hidden fixed top-0 right-0 bottom-0 pt-40 text-2xl space-y-10 pl-16 pr-20`}
       >
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />

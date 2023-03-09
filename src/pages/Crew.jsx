@@ -11,15 +11,15 @@ const Crew = ({ image, role, name, bio }) => {
   return (
     <div>
       <img
-        className="block md:hidden absolute top-0 left-0 z-[-1] w-full"
+        className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={crewBgMobile}
       />
       <img
-        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full"
+        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={crewBgTablet}
       />
       <img
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={crewBgDesktop}
       />
       <div className="text-center lg:text-left lg:min-h-[80vh]">
