@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {/* Navbar for Desktop and Tablet */}
-      <div className="backdrop-blur-[100px] font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 py-12 text-xl md:pr-8 lg:pl-20 lg:pr-32">
+      <div className="backdrop-blur-[100px] font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 text-xl md:pr-8 lg:pl-20 lg:pr-32">
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
         <MenuLink number="02" title="CREW" path="/crew" />

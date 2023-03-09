@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const TechnologyNavbar = () => {
   return (
-    <div className="text-white font-bellefair mb-8 text-3xl flex lg:flex-col justify-start items-start space-x-8 lg:space-x-0 lg:space-y-10">
+    <div className="text-white font-bellefair mb-8 text-3xl flex lg:flex-col justify-center items-center lg:justify-start lg:items-start space-x-8 lg:space-x-0 lg:space-y-10">
       <NavLink
         style={({ isActive }) => {
           return isActive
