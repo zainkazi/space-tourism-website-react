@@ -13,10 +13,10 @@ import europaImage from "./assets/destination/image-europa.webp";
 import titanImage from "./assets/destination/image-titan.webp";
 
 // Crew
-import crew1 from "./assets/crew/image-anousheh-ansari.webp";
-import crew2 from "./assets/crew/image-douglas-hurley.webp";
-import crew3 from "./assets/crew/image-mark-shuttleworth.webp";
-import crew4 from "./assets/crew/image-victor-glover.webp";
+import crew4 from "./assets/crew/image-anousheh-ansari.webp";
+import crew1 from "./assets/crew/image-douglas-hurley.webp";
+import crew2 from "./assets/crew/image-mark-shuttleworth.webp";
+import crew3 from "./assets/crew/image-victor-glover.webp";
 
 //Technology
 import tech1Mobile from "./assets/technology/image-launch-vehicle-landscape.jpg";

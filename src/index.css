@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(75, 69, 69);
+  /* background-color: rgb(75, 69, 69); */
   /* background-image: url("./assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat; */
 }
@@ -14,4 +14,10 @@ body {
 
 .font-barlow {
   font-family: "Barlow Condensed", sans-serif;
+}
+
+.active > .crew-link {
+  cursor: default;
+  background-color: white;
+  pointer-events: none;
 }
