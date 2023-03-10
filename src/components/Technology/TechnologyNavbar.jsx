@@ -15,7 +15,7 @@ const TechnologyNavbar = () => {
               }
             : {};
         }}
-        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px]"
+        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px] select-none"
         to="/technology/LaunchVehicle"
       >
         <div>1</div>
@@ -31,7 +31,7 @@ const TechnologyNavbar = () => {
               }
             : {};
         }}
-        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px]"
+        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px] select-none"
         to="/technology/Spaceport"
       >
         <div>2</div>
@@ -47,7 +47,7 @@ const TechnologyNavbar = () => {
               }
             : {};
         }}
-        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px]"
+        className="transition duration-150 ease-in hover:border-white border-2 border-gray-500 text-center p-4 rounded-full h-[70px] w-[70px] select-none"
         to="/technology/SpaceCapsule"
       >
         <div>3</div>

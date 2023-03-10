@@ -22,6 +22,7 @@ const Destination = ({ image, name, details, stats }) => {
         className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={destinationBgDesktop}
       />
+
       <div className="text-center lg:text-left lg:min-h-[80vh]">
         <h1 className="flex justify-center md:justify-start font-barlow tracking-[3px] lg:tracking-[6px] text-white mt-12 mb-20 text-2xl lg:text-3xl md:text-left md:pl-10 lg:pl-28">
           <div className="mr-5 text-gray-600 font-black">01</div>PICK YOUR

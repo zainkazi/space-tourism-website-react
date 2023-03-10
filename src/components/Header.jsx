@@ -31,7 +31,7 @@ const Header = () => {
     <div className="flex justify-between items-center lg:mt-5">
       {/* Logo */}
 
-      <div className="p-6 md:pl-10 lg:pl-20">
+      <div className="p-6 md:pl-10 lg:pl-20 shrink-0">
         <NavLink to="/">
           <img src={logo} alt="logo" className="w-14" />
         </NavLink>
@@ -47,8 +47,10 @@ const Header = () => {
         <MenuLink number="03" title="TECHNOLOGY" path="/technology" />
       </div>
 
+      <hr className="border-[1px] border-gray-600 opacity-80 rounded-full translate-x-10 z-[1] grow hidden lg:block" />
+
       {/* Navbar for Desktop and Tablet */}
-      <div className="backdrop-blur-[100px] font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 text-xl md:pr-8 lg:pl-20 lg:pr-32">
+      <div className="backdrop-blur-[100px] font-barlow tracking-[4px] text-white hidden md:block md:flex space-x-5 lg:space-x-12 text-xl md:pr-8 lg:pl-[8vw] lg:pr-[10vw]">
         <MenuLink number="00" title="HOME" path="/" />
         <MenuLink number="01" title="DESTINATION" path="/destination" />
         <MenuLink number="02" title="CREW" path="/crew" />

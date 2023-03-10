@@ -39,7 +39,7 @@ const Crew = ({ image, role, name, bio }) => {
             <CrewNavbar />
 
             {/* Crew details */}
-            <div className="lg:h-[500px]">
+            <div className="grow">
               <CrewInfo role={role} name={name} bio={bio} />
             </div>
           </div>

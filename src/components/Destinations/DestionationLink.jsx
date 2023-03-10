@@ -10,7 +10,7 @@ const DestinationLink = ({ name, path }) => {
             ? { transitionDuration: "0.5s", borderBottom: "3px solid white" }
             : {};
         }}
-        className="transition-[border] pb-2 duration-150 hover:border-b-[3px] border-gray-500"
+        className="transition-[border] pb-2 duration-100 hover:border-b-[3px] border-gray-500 select-none"
         to={path}
       >
         {name}

@@ -38,7 +38,9 @@ const Home = () => {
         </div>
 
         {/* Explore Button */}
-        <div className="font-bellefair bg-white text-3xl lg:text-4xl text-[#0B0D17] rounded-full px-[50px] py-[100px] lg:w-60 lg:pr-[200px] lg:py-[105px] align-middle">
+
+        <div className="font-bellefair bg-white select-none text-3xl opacity-100 lg:text-4xl text-[#0B0D17] rounded-full px-[50px] py-[100px] lg:w-60 lg:pr-[200px] lg:py-[105px] align-middle lg:transition-all lg:duration-300 lg:hover:shadow-[0px_0px_0px_80px_rgba(72,72,72,0.5)]">
+          {/* <div className="hidden lg:block absolute bg-red-600 z-[-1] w-96 h-96 -top-[28%] -left-[25%] rounded-full transition-all duration-300"></div> */}
           <div>EXPLORE</div>
         </div>
       </div>
