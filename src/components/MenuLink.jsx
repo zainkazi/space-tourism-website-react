@@ -7,7 +7,12 @@ const MenuLink = ({ number, title, path }) => {
     <NavLink
       style={({ isActive }) => {
         return isActive
-          ? { transitionDuration: "0.5s", borderBottom: "4px solid white" }
+          ? {
+              transitionDuration: "0.5s",
+              borderBottom: "4px solid white",
+              cursor: "default",
+              pointerEvents: "none",
+            }
           : {};
       }}
       className="transition-[border] duration-150 hover:border-b-[4px] border-gray-500"

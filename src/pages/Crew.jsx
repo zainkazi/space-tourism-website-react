@@ -29,12 +29,12 @@ const Crew = ({ image, role, name, bio }) => {
 
         <div className="flex flex-col lg:flex-row-reverse justify-center items-center mb-16 space-y-12 lg:space-y-0 lg:px-20">
           {/* Image container */}
-          <div className="w-72 lg:w-[850px]">
+          <div className="w-72 md:w-[55vw]  lg:w-[850px] grow order-none md:order-last lg:order-none">
             <CrewImage source={image} />
           </div>
 
           {/* Details container */}
-          <div className="px-8 sm:px-20 lg:px-0 lg:pl-20 lg:flex flex-col-reverse">
+          <div className="px-8 sm:px-20 lg:px-0  lg:pl-20 md:pb-20 md:flex md:flex-col-reverse">
             {/* Navbar */}
             <CrewNavbar />
 
