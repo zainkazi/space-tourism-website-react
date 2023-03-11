@@ -20,4 +20,6 @@ body {
   cursor: default;
   background-color: white;
   pointer-events: none;
+  text-decoration: none;
+  user-select: none;
 }

@@ -20,7 +20,7 @@ const Home = () => {
         src={homeBgDesktop}
       />
 
-      <div className="lg:min-h-[100vh] text-center lg:text-left flex flex-col justify-between items-center lg:flex-row lg:justify-between lg:space-x-52 lg:px-36">
+      <div className="lg:min-h-[100vh] md:mt-20 lg:mt-0 text-center lg:text-left flex flex-col justify-between items-center lg:flex-row lg:justify-evenly lg:space-x-52">
         {/* Intro */}
 
         <div className="text-[#D0D6F9] mt-10 lg:mt-0 mb-20 md:mb-44 lg:mb-0 lg:max-w-min">

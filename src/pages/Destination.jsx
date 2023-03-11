@@ -31,13 +31,7 @@ const Destination = ({ image, name, details, stats }) => {
 
         <div className="flex flex-col text-[#D0D6F9] mb-16 lg:grid grid-cols-2 lg:items-start justify-center items-center space-y-12 lg:space-y-0 lg:pr-20 lg:pl-40">
           {/* Image container */}
-          <div className="lg:pt-10 w-72 lg:w-full">
-            {/* <Routes>
-            <Route
-              path="moon"
-              element={<DestinationImage source={moonImage} />}
-            />
-          </Routes> */}
+          <div className="lg:pt-10 w-72 lg:w-full lg:pr-20">
             <DestinationImage source={image} />
           </div>
 
