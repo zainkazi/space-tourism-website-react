@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import DestinationNavbar from "./components/Destinations/DestinationNavbar";
 import Header from "./components/Header";
 import Crew from "./pages/Crew";
@@ -33,17 +33,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destination">
-          <Route
-            index
-            element={
-              <Destination
-                image={moonImage}
-                name="MOON"
-                details="See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites."
-                stats={{ distance: "384,400", time: "3 DAYS" }}
-              />
-            }
-          />
+          <Route index element={<Navigate to="moon" />} />
           <Route
             path="moon"
             element={
@@ -91,17 +81,7 @@ function App() {
         </Route>
 
         <Route path="/crew">
-          <Route
-            index
-            element={
-              <Crew
-                image={crew1}
-                role="COMMANDER"
-                name="DOUGLAS HURLEY"
-                bio="Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
-              />
-            }
-          />
+          <Route index element={<Navigate to="DouglasHurley" />} />
           <Route
             path="DouglasHurley"
             element={
@@ -149,17 +129,7 @@ function App() {
         </Route>
 
         <Route path="/technology">
-          <Route
-            index
-            element={
-              <Technology
-                mobileImage={tech1Mobile}
-                desktopImage={tech1Desktop}
-                name="LAUNCH VEHICLE"
-                desc="A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
-              />
-            }
-          />
+          <Route index element={<Navigate to="LaunchVehicle" />} />
           <Route
             path="LaunchVehicle"
             element={
