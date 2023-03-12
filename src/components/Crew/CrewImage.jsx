@@ -1,11 +1,7 @@
 import React from "react";
 
 const CrewImage = ({ source }) => {
-  return (
-    <div>
-      <img src={source} />
-    </div>
-  );
+  return <img src={source} />;
 };
 
 export default CrewImage;

@@ -29,7 +29,7 @@ const Crew = ({ image, role, name, bio }) => {
 
         <div className="flex flex-col lg:flex-row-reverse justify-center items-center mb-16 space-y-12 lg:space-y-0 lg:px-20">
           {/* Image container */}
-          <div className="w-72 md:w-[55vw]  lg:w-[850px] grow order-none md:order-last lg:order-none">
+          <div className="w-72 md:w-[55vw] lg:w-[850px] grow order-none md:order-last lg:order-none">
             <CrewImage source={image} />
           </div>
 
