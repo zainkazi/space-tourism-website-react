@@ -11,14 +11,17 @@ const Destination = ({ image, name, details, stats }) => {
   return (
     <div>
       <img
+        alt="Destination Background"
         className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={destinationBgMobile}
       />
       <img
+        alt="Destination Background"
         className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={destinationBgTablet}
       />
       <img
+        alt="Destination Background"
         className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={destinationBgDesktop}
       />

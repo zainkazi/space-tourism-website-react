@@ -8,14 +8,17 @@ const Home = () => {
   return (
     <div>
       <img
+        alt="Home Background"
         className="block md:hidden absolute top-0 left-0 z-[-1] w-full  min-h-[100vh]"
         src={homeBgMobile}
       />
       <img
+        alt="Home Background"
         className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full  min-h-[100vh]"
         src={homeBgTablet}
       />
       <img
+        alt="Home Background"
         className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
         src={homeBgDesktop}
       />
