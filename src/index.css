@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(75, 69, 69);
+  background-color: black;
   /* background-image: url("./assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat; */
 }

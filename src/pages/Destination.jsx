@@ -12,17 +12,17 @@ const Destination = ({ image, name, details, stats }) => {
     <div>
       <img
         alt="Destination Background"
-        className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="block md:hidden object-cover object-center absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={destinationBgMobile}
       />
       <img
         alt="Destination Background"
-        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={destinationBgTablet}
       />
       <img
         alt="Destination Background"
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={destinationBgDesktop}
       />
 

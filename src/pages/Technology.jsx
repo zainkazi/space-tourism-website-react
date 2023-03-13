@@ -13,17 +13,17 @@ const Technology = ({ mobileImage, desktopImage, name, desc }) => {
     <div>
       <img
         alt="Technology Background"
-        className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={technologyBgMobile}
       />
       <img
         alt="Technology Background"
-        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden md:block lg:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={technologyBgTablet}
       />
       <img
         alt="Technology Background"
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={technologyBgDesktop}
       />
       <div className="text-center lg:text-left lg:min-h-[80vh]">
