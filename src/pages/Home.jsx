@@ -19,7 +19,7 @@ const Home = () => {
       />
       <img
         alt="Home Background"
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] scale-y-150 w-full min-h-[100vh]"
         src={homeBgDesktop}
       />
 

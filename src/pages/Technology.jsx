@@ -23,7 +23,7 @@ const Technology = ({ mobileImage, desktopImage, name, desc }) => {
       />
       <img
         alt="Technology Background"
-        className="hidden lg:block absolute top-0 left-0 z-[-1] w-full min-h-[100vh]"
+        className="hidden lg:block absolute top-0 left-0 z-[-1] scale-y-150 w-full min-h-[100vh]"
         src={technologyBgDesktop}
       />
       <div className="text-center lg:text-left lg:min-h-[80vh]">
