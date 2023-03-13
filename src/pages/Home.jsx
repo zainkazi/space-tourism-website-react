@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <img
         alt="Home Background"
-        className="block md:hidden absolute top-0 left-0 z-[-1] w-full  min-h-[100dvh]"
+        className="block md:hidden absolute top-0 left-0 z-[-1] w-full min-h-[100dvh]"
         src={homeBgMobile}
       />
       <img
