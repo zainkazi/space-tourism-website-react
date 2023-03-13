@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zainkazi/space-tourism-website-react)
-- Live Site URL: [Add live site URL here](https://space-tourism-zainkazi.vercel.app)
+- Solution URL: [Github](https://github.com/zainkazi/space-tourism-website-react)
+- Live Site URL: [Vercel](https://space-tourism-zainkazi.vercel.app)
 
 ### Built with
 
